@@ -67,30 +67,59 @@
 // }
 // console.log(` i = ${i}`);
 
-var form  = document.getElementById('form');
+// var form  = document.getElementById('form');
 
-form.addEventListener('submit', function(event){
-  event.preventDefault();
+// form.addEventListener('submit', function(event){
+//   event.preventDefault();
 
-  var fName = event.target.fName.value;
-  var lName = event.target.lName.value;
-  var email = event.target.email.value;
-  var password = event.target.passWord.value;
-  var countrty = event.target.countrty.value;
-  var address = event.target.address.value;
+//   var fName = event.target.fName.value;
+//   var lName = event.target.lName.value;
+//   var email = event.target.email.value;
+//   var password = event.target.passWord.value;
+//   var countrty = event.target.countrty.value;
+//   var address = event.target.address.value;
 
 
-  var info ={
+//   var info ={
 
-    fName : fName,
-    lName : lName,
-    email : email,
-    passWord : password,
-    city : countrty,
-    address: address
-}
+//     fName : fName,
+//     lName : lName,
+//     email : email,
+//     passWord : password,
+//     city : countrty,
+//     address: address
+// }
 
-console.log(info);
+// console.log(info);
 
-})
+// })
 
+// var date = new Date();
+
+// console.log(date.getUTCMilliseconds());
+
+// console.log(date.getHours());
+
+// console.log(date.toString());
+
+var seconds = document.getElementById('seconds');
+
+var minutes = document.getElementById('minutes');
+
+var hours = document.getElementById('hours');
+
+ 
+setInterval(function(){
+
+  var date = new Date();
+
+  var s = date.getSeconds();
+  var m = date.getMinutes();
+  var h = date.getHours();
+
+  seconds.innerText = s;
+  minutes.innerText = m;
+  hours.innerText = h
+
+
+}, 1000);

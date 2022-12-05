@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -53,4 +53,28 @@ form button{
     margin-top: 10px;
     padding: 10px;
     cursor: pointer;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.clock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock > div{
+    width: 150px;
+    padding: 20px;
+    background: rgb(182, 105, 105);
+    color: aliceblue;
+    margin-right: 20px;
+    border-radius:10px ;
+    text-align: center;
+}
+
+.clock div h2{
+font-size: 40px;}
