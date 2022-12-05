@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+}
+
+form{
+    width: 400px;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+form h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form textarea{
+    min-width: 100%;
+    max-width: 100%;
+    outline: none;
+
+}
+
+form select{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin: 10px 0;
+
+}
+
+
+form button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
