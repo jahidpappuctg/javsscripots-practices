@@ -55,7 +55,7 @@ form button{
     cursor: pointer;
 } */
 
-*{
+/* *{
     padding: 0;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -77,4 +77,74 @@ form button{
 }
 
 .clock div h2{
-font-size: 40px;}
+font-size: 40px;} *
+/* .product {
+    width: 200px;
+}
+
+.product > img{
+    max-width: 100%;
+} */
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#form{
+    width: 450px;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#form h2{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#form input, #form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+#form button {
+    width: 100%;
+    font-size: 17px;
+    padding: 10px;
+} */
+
+.section-heading{
+    margin: 20px 0;
+}
+
+.product img{
+    width: 100%;
+    background-color: red;
+}
+
+.product {
+    max-width: 250px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.product a button{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#root {
+    display: flex;
+}
