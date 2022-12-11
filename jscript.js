@@ -351,20 +351,84 @@
 //     console.log(myvalue);
 //  }
 
-var mySet = new Set();
+// var mySet = new Set();
 
 
-mySet.add("Bangladesh");
+// mySet.add("Bangladesh");
 
-mySet.add("india");
+// mySet.add("india");
 
-mySet.add("Thailand");
+// mySet.add("Thailand");
 
-mySet.add("Bangladesh");
-
-
-console.log(mySet);
+// mySet.add("Bangladesh");
 
 
+// console.log(mySet);
 
-//  console.log(myMap.get("key1"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let life ="Beautiful";
+// if(life === "Beautiful") alert("life is Beautiful ");
+
+
+let firstName = "Jahid";
+
+let lastName = "karim";
+
+console.log(firstName);
+console.log(firstName);
+console.log(firstName);
+console.log(firstName);
+console.log(firstName);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
