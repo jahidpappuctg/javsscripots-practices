@@ -333,14 +333,14 @@
 
 
 
- var myMap = new Map();
+//  var myMap = new Map();
 
 
- myMap.set("key1", "Bangladesh");
- myMap.set("key2", "india");
- myMap.set("key3", "sirilanka");
- myMap.set("key4", "bhutan");
- myMap.set("key5", "Thailand");
+//  myMap.set("key1", "Bangladesh");
+//  myMap.set("key2", "india");
+//  myMap.set("key3", "sirilanka");
+//  myMap.set("key4", "bhutan");
+//  myMap.set("key5", "Thailand");
 
 //  myMap.delete("key1");
 //  myMap.delete("key2");
@@ -398,19 +398,117 @@
 
 
 
+
+
 // let life ="Beautiful";
 // if(life === "Beautiful") alert("life is Beautiful ");
 
 
+// let firstName = "Jahid";
+
+// let lastName = "karim";
+
+// console.log(firstName);
+// console.log(firstName);
+// console.log(firstName);
+// console.log(firstName);
+// console.log(firstName);
+
+
+
+
+
+
+
+
+
+let age = 20;
+
+console.log(age);
+
 let firstName = "Jahid";
 
-let lastName = "karim";
+console.log();
 
-console.log(firstName);
-console.log(firstName);
-console.log(firstName);
-console.log(firstName);
-console.log(firstName);
+
+//blooen
+
+let isSinger = true;
+console.log(isSinger);
+
+//undified
+let homeCity;
+console.log(homeCity);
+
+
+//null
+
+let income = null;
+console.log(income);
+
+
+// console.log(typeof age);
+// console.log(typeof homeCity);
+// console.log(typeof income);
+
+
+
+// homeCity = "dhaka";
+
+// console.log(homeCity);
+
+// console.log(isSinger);
+
+
+// isSinger = "Bangladesh Singer";
+
+// console.log(homeCity);
+
+// console.log(isSinger);
+
+
+let firstName1 = "Karim";
+
+//let
+//var
+//const
+
+let myAge = 33;
+console.log(myAge);
+
+myAge = 35;
+console.log(myAge);
+
+
+//const
+
+const brithYear = 1982;
+
+console.log(brithYear);
+
+
+//var
+
+var job = "teacher";
+
+console.log(job);
+
+
+let profit = 32 - 40;
+
+console.log(profit);
+
+let currentAge = 2022;
+
+let yAge = currentAge - 1998;
+
+console.log(myAge);
+
+let adritAge = currentAge - 2017;
+
+console.log(yAge , adritAge);
+
+
 
 
 
