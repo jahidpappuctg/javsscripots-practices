@@ -422,29 +422,29 @@
 
 
 
-let age = 20;
+// let age = 20;
 
-console.log(age);
+// console.log(age);
 
-let firstName = "Jahid";
+// let firstName = "Jahid";
 
-console.log();
+// console.log();
 
 
 //blooen
 
-let isSinger = true;
-console.log(isSinger);
+// let isSinger = true;
+// console.log(isSinger);
 
-//undified
-let homeCity;
-console.log(homeCity);
+// //undified
+// let homeCity;
+// console.log(homeCity);
 
 
-//null
+// //null
 
-let income = null;
-console.log(income);
+// let income = null;
+// console.log(income);
 
 
 // console.log(typeof age);
@@ -467,46 +467,141 @@ console.log(income);
 // console.log(isSinger);
 
 
-let firstName1 = "Karim";
+// let firstName1 = "Karim";
 
-//let
-//var
+// //let
+// //var
+// //const
+
+// let myAge = 33;
+// console.log(myAge);
+
+// myAge = 35;
+// console.log(myAge);
+
+
 //const
 
-let myAge = 33;
-console.log(myAge);
+// const brithYear = 1982;
 
-myAge = 35;
-console.log(myAge);
+// console.log(brithYear);
 
 
-//const
+// //var
 
-const brithYear = 1982;
+// // var job = "teacher";
 
-console.log(brithYear);
-
-
-//var
-
-var job = "teacher";
-
-console.log(job);
+// // console.log(job);
 
 
-let profit = 32 - 40;
+// // let profit = 32 - 40;
 
-console.log(profit);
+// // console.log(profit);
 
-let currentAge = 2022;
+// // let currentAge = 2022;
 
-let yAge = currentAge - 1998;
+// // let yAge = currentAge - 1998;
 
-console.log(myAge);
+// // console.log(myAge);
 
-let adritAge = currentAge - 2017;
+// // let adritAge = currentAge - 2017;
 
-console.log(yAge , adritAge);
+// // console.log(yAge , adritAge);
+
+
+
+// // let
+
+
+// function sum() {
+
+//     let num1 = 10;
+//     let num2 = 20;
+//     const total = num1 + num2;
+
+//     return total;
+     
+// }
+
+let item = 10 + 5;
+
+console.log(item);
+
+let x = 15;
+
+x += 10;
+console.log(x);
+
+
+let y = 20;
+
+y -= 15;
+
+console.log(y);
+
+let z = 5;
+
+z *= 5;
+
+console.log(z);
+
+
+
+
+
+
+
+
+
+ 
+// console.log(sum());
+
+// // console.log(num1);
+
+// var old = "new";
+
+// var old = "new";
+
+
+// let age1 = 12;
+// age = 23; // resign
+
+//ডিফল প্যারমিটার
+
+// function say(message ="Salam") {
+    
+//     console.log(message)
+// };
+
+// say("hellow bhi kemon aachen?");
+
+
+// রেষ্ট প্যারিামিটার [ প্যারিামিটা আগে তিনটা ডট ব্যবহার করতে হয়]
+
+// function rest (a, b, ...jahid){   // আরগুমেন্ট অনেক, প্যারামিটার কম দিলে
+//     console.log(a, b, jahid);
+// }
+
+// rest(1, 2, 3, 3, 4, 4, 4, 5, 6, 6);
+
+
+
+// স্প্রেড অপারেটর [ স্প্রেড অপারেটরের আগে তিনটা ডট ব্যবহার করতে হয়... ২টা  এ্যারে এক সাথে নিয়ে কাজ করতে স্প্রেড অপারেটরের ব্যবহার ]
+
+// const arr1 = [1,2,3];
+// const arr2 = [...arr1, 4, 5, 6];
+
+// console.log(arr2);
+
+
+
+
+
+
+
+
+
+
 
 
 
