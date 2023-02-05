@@ -103,7 +103,5 @@ const { age, fName, LName } = user2;
 
 console.log(age);
 
-git init
-
 
 
